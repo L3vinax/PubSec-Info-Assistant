@@ -216,6 +216,7 @@ else
     secretNames=("BINGSEARCH-KEY" "AZURE-AI-KEY")    
 fi
 
+wait 120
 
 # Retrieve and export each secret
 for secretName in "${secretNames[@]}"; do
